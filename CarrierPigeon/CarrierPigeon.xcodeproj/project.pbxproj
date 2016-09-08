@@ -11,12 +11,19 @@
 		6E9F02F160EAFD2FC7CF37C4 /* libPods-CarrierPigeon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A23C0CDBFA7AEF51E1CE9C8 /* libPods-CarrierPigeon.a */; };
 		A7D2DA111D7536BA00B2215B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D2DA101D7536BA00B2215B /* main.m */; };
 		A7D2DA141D7536BA00B2215B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D2DA131D7536BA00B2215B /* AppDelegate.m */; };
-		A7D2DA171D7536BA00B2215B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D2DA161D7536BA00B2215B /* ViewController.m */; };
-		A7D2DA1A1D7536BA00B2215B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D2DA181D7536BA00B2215B /* Main.storyboard */; };
 		A7D2DA1C1D7536BA00B2215B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7D2DA1B1D7536BA00B2215B /* Assets.xcassets */; };
 		A7D2DA1F1D7536BA00B2215B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D2DA1D1D7536BA00B2215B /* LaunchScreen.storyboard */; };
 		A7D2DA2A1D7536BA00B2215B /* CarrierPigeonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D2DA291D7536BA00B2215B /* CarrierPigeonTests.m */; };
 		A7D2DA351D7536BA00B2215B /* CarrierPigeonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D2DA341D7536BA00B2215B /* CarrierPigeonUITests.m */; };
+		A7D2DA441D75568000B2215B /* CYLTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D2DA431D75568000B2215B /* CYLTabBarControllerConfig.m */; };
+		A7D2DA531D75580600B2215B /* WLHudongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D2DA521D75580600B2215B /* WLHudongViewController.m */; };
+		A7D2DA571D75581F00B2215B /* WLFabuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D2DA561D75581F00B2215B /* WLFabuViewController.m */; };
+		A7D2DA5B1D75583600B2215B /* WLQuanziViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D2DA5A1D75583600B2215B /* WLQuanziViewController.m */; };
+		A7D2DA5F1D75584E00B2215B /* WLMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D2DA5E1D75584E00B2215B /* WLMeViewController.m */; };
+		A7D2DA631D755E0A00B2215B /* WLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D2DA621D755E0A00B2215B /* WLBaseViewController.m */; };
+		A7D2DA661D75633E00B2215B /* WLTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D2DA651D75633E00B2215B /* WLTabBarVC.m */; };
+		A7D2DA6C1D7563E200B2215B /* WLNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D2DA6B1D7563E200B2215B /* WLNavVC.m */; };
+		A7D2DA6F1D75692B00B2215B /* WLTabBarVCSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D2DA6E1D75692B00B2215B /* WLTabBarVCSetting.m */; };
 		CA09A4438568E906AD442E91 /* libPods-CarrierPigeonUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F919FB5E4E62E0DB4422F6 /* libPods-CarrierPigeonUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -50,9 +57,6 @@
 		A7D2DA101D7536BA00B2215B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A7D2DA121D7536BA00B2215B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A7D2DA131D7536BA00B2215B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A7D2DA151D7536BA00B2215B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A7D2DA161D7536BA00B2215B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A7D2DA191D7536BA00B2215B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7D2DA1B1D7536BA00B2215B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7D2DA1E1D7536BA00B2215B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7D2DA201D7536BA00B2215B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +66,24 @@
 		A7D2DA301D7536BA00B2215B /* CarrierPigeonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarrierPigeonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D2DA341D7536BA00B2215B /* CarrierPigeonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarrierPigeonUITests.m; sourceTree = "<group>"; };
 		A7D2DA361D7536BA00B2215B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7D2DA421D75568000B2215B /* CYLTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYLTabBarControllerConfig.h; path = ../../../CYLTabBarControllerConfig.h; sourceTree = "<group>"; };
+		A7D2DA431D75568000B2215B /* CYLTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYLTabBarControllerConfig.m; path = ../../../CYLTabBarControllerConfig.m; sourceTree = "<group>"; };
+		A7D2DA511D75580600B2215B /* WLHudongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHudongViewController.h; sourceTree = "<group>"; };
+		A7D2DA521D75580600B2215B /* WLHudongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHudongViewController.m; sourceTree = "<group>"; };
+		A7D2DA551D75581F00B2215B /* WLFabuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLFabuViewController.h; sourceTree = "<group>"; };
+		A7D2DA561D75581F00B2215B /* WLFabuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLFabuViewController.m; sourceTree = "<group>"; };
+		A7D2DA591D75583600B2215B /* WLQuanziViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLQuanziViewController.h; sourceTree = "<group>"; };
+		A7D2DA5A1D75583600B2215B /* WLQuanziViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLQuanziViewController.m; sourceTree = "<group>"; };
+		A7D2DA5D1D75584E00B2215B /* WLMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLMeViewController.h; sourceTree = "<group>"; };
+		A7D2DA5E1D75584E00B2215B /* WLMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLMeViewController.m; sourceTree = "<group>"; };
+		A7D2DA611D755E0A00B2215B /* WLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBaseViewController.h; sourceTree = "<group>"; };
+		A7D2DA621D755E0A00B2215B /* WLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBaseViewController.m; sourceTree = "<group>"; };
+		A7D2DA641D75633E00B2215B /* WLTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTabBarVC.h; sourceTree = "<group>"; };
+		A7D2DA651D75633E00B2215B /* WLTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTabBarVC.m; sourceTree = "<group>"; };
+		A7D2DA6A1D7563E200B2215B /* WLNavVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLNavVC.h; sourceTree = "<group>"; };
+		A7D2DA6B1D7563E200B2215B /* WLNavVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLNavVC.m; sourceTree = "<group>"; };
+		A7D2DA6D1D75692B00B2215B /* WLTabBarVCSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTabBarVCSetting.h; sourceTree = "<group>"; };
+		A7D2DA6E1D75692B00B2215B /* WLTabBarVCSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTabBarVCSetting.m; sourceTree = "<group>"; };
 		D6DE9D0BFE9CA295E16E66DD /* Pods-CarrierPigeonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrierPigeonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarrierPigeonTests/Pods-CarrierPigeonTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,14 +163,7 @@
 		A7D2DA0E1D7536BA00B2215B /* CarrierPigeon */ = {
 			isa = PBXGroup;
 			children = (
-				A7D2DA121D7536BA00B2215B /* AppDelegate.h */,
-				A7D2DA131D7536BA00B2215B /* AppDelegate.m */,
-				A7D2DA151D7536BA00B2215B /* ViewController.h */,
-				A7D2DA161D7536BA00B2215B /* ViewController.m */,
-				A7D2DA181D7536BA00B2215B /* Main.storyboard */,
-				A7D2DA1B1D7536BA00B2215B /* Assets.xcassets */,
-				A7D2DA1D1D7536BA00B2215B /* LaunchScreen.storyboard */,
-				A7D2DA201D7536BA00B2215B /* Info.plist */,
+				A7D2DA451D75578200B2215B /* Class */,
 				A7D2DA0F1D7536BA00B2215B /* Supporting Files */,
 			);
 			path = CarrierPigeon;
@@ -157,6 +172,11 @@
 		A7D2DA0F1D7536BA00B2215B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A7D2DA121D7536BA00B2215B /* AppDelegate.h */,
+				A7D2DA131D7536BA00B2215B /* AppDelegate.m */,
+				A7D2DA1B1D7536BA00B2215B /* Assets.xcassets */,
+				A7D2DA1D1D7536BA00B2215B /* LaunchScreen.storyboard */,
+				A7D2DA201D7536BA00B2215B /* Info.plist */,
 				A7D2DA101D7536BA00B2215B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -180,6 +200,119 @@
 			path = CarrierPigeonUITests;
 			sourceTree = "<group>";
 		};
+		A7D2DA451D75578200B2215B /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				A7D2DA4C1D7557CF00B2215B /* Main */,
+				A7D2DA471D75578200B2215B /* hudong */,
+				A7D2DA461D75578200B2215B /* fabu */,
+				A7D2DA4A1D75578200B2215B /* quanzi */,
+				A7D2DA491D75578200B2215B /* Me */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		A7D2DA461D75578200B2215B /* fabu */ = {
+			isa = PBXGroup;
+			children = (
+				A7D2DA541D75581500B2215B /* controller */,
+			);
+			path = fabu;
+			sourceTree = "<group>";
+		};
+		A7D2DA471D75578200B2215B /* hudong */ = {
+			isa = PBXGroup;
+			children = (
+				A7D2DA481D75578200B2215B /* controller */,
+			);
+			path = hudong;
+			sourceTree = "<group>";
+		};
+		A7D2DA481D75578200B2215B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7D2DA511D75580600B2215B /* WLHudongViewController.h */,
+				A7D2DA521D75580600B2215B /* WLHudongViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		A7D2DA491D75578200B2215B /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				A7D2DA5C1D75584500B2215B /* controller */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		A7D2DA4A1D75578200B2215B /* quanzi */ = {
+			isa = PBXGroup;
+			children = (
+				A7D2DA581D75582D00B2215B /* controller */,
+			);
+			path = quanzi;
+			sourceTree = "<group>";
+		};
+		A7D2DA4C1D7557CF00B2215B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A7D2DA601D755DF900B2215B /* BaseController */,
+				A7D2DA4D1D7557CF00B2215B /* controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A7D2DA4D1D7557CF00B2215B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7D2DA421D75568000B2215B /* CYLTabBarControllerConfig.h */,
+				A7D2DA431D75568000B2215B /* CYLTabBarControllerConfig.m */,
+				A7D2DA641D75633E00B2215B /* WLTabBarVC.h */,
+				A7D2DA651D75633E00B2215B /* WLTabBarVC.m */,
+				A7D2DA6A1D7563E200B2215B /* WLNavVC.h */,
+				A7D2DA6B1D7563E200B2215B /* WLNavVC.m */,
+				A7D2DA6D1D75692B00B2215B /* WLTabBarVCSetting.h */,
+				A7D2DA6E1D75692B00B2215B /* WLTabBarVCSetting.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		A7D2DA541D75581500B2215B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7D2DA551D75581F00B2215B /* WLFabuViewController.h */,
+				A7D2DA561D75581F00B2215B /* WLFabuViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		A7D2DA581D75582D00B2215B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7D2DA591D75583600B2215B /* WLQuanziViewController.h */,
+				A7D2DA5A1D75583600B2215B /* WLQuanziViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		A7D2DA5C1D75584500B2215B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7D2DA5D1D75584E00B2215B /* WLMeViewController.h */,
+				A7D2DA5E1D75584E00B2215B /* WLMeViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		A7D2DA601D755DF900B2215B /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				A7D2DA611D755E0A00B2215B /* WLBaseViewController.h */,
+				A7D2DA621D755E0A00B2215B /* WLBaseViewController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -193,6 +326,7 @@
 				A7D2DA0A1D7536BA00B2215B /* Resources */,
 				55E8C06491FD67ECE7AF1624 /* [CP] Embed Pods Frameworks */,
 				5BD636BF7B61BE4EBCF3393C /* [CP] Copy Pods Resources */,
+				A76FC0A21D81411000D89C52 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -250,6 +384,7 @@
 		A7D2DA041D7536BA00B2215B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WL;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = wenli;
 				TargetAttributes = {
@@ -294,7 +429,6 @@
 			files = (
 				A7D2DA1F1D7536BA00B2215B /* LaunchScreen.storyboard in Resources */,
 				A7D2DA1C1D7536BA00B2215B /* Assets.xcassets in Resources */,
-				A7D2DA1A1D7536BA00B2215B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +539,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		A76FC0A21D81411000D89C52 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"$CODESIGNING_FOLDER_PATH\" >/tmp/\"$USER.ident\" && echo \"$CODE_SIGN_IDENTITY\" >>/tmp/\"$USER.ident\" && exit;";
+		};
 		E154BA0A9B851F39800C2D89 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -442,8 +589,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7D2DA171D7536BA00B2215B /* ViewController.m in Sources */,
+				A7D2DA441D75568000B2215B /* CYLTabBarControllerConfig.m in Sources */,
+				A7D2DA5F1D75584E00B2215B /* WLMeViewController.m in Sources */,
+				A7D2DA5B1D75583600B2215B /* WLQuanziViewController.m in Sources */,
+				A7D2DA571D75581F00B2215B /* WLFabuViewController.m in Sources */,
+				A7D2DA661D75633E00B2215B /* WLTabBarVC.m in Sources */,
 				A7D2DA141D7536BA00B2215B /* AppDelegate.m in Sources */,
+				A7D2DA531D75580600B2215B /* WLHudongViewController.m in Sources */,
+				A7D2DA6F1D75692B00B2215B /* WLTabBarVCSetting.m in Sources */,
+				A7D2DA6C1D7563E200B2215B /* WLNavVC.m in Sources */,
+				A7D2DA631D755E0A00B2215B /* WLBaseViewController.m in Sources */,
 				A7D2DA111D7536BA00B2215B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,14 +635,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A7D2DA181D7536BA00B2215B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A7D2DA191D7536BA00B2215B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A7D2DA1D1D7536BA00B2215B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -530,6 +677,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -587,6 +735,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: weijie xie (YB4NU6HP2B)";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = CarrierPigeon/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -601,6 +751,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: weijie xie (YB4NU6HP2B)";
 				INFOPLIST_FILE = CarrierPigeon/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -614,6 +765,7 @@
 			baseConfigurationReference = D6DE9D0BFE9CA295E16E66DD /* Pods-CarrierPigeonTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = CarrierPigeonTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wonwinry.CarrierPigeonTests;
@@ -639,6 +791,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 462F24326CBC43E358A445F4 /* Pods-CarrierPigeonUITests.debug.xcconfig */;
 			buildSettings = {
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = CarrierPigeonUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wonwinry.CarrierPigeonUITests;

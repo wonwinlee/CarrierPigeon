@@ -7,9 +7,11 @@ target 'CarrierPigeon' do
 
   # Pods for CarrierPigeon
 
-  pod ‘CYLTabBarController’
-
-
+  pod 'CYLTabBarController'
+  pod 'Bugly'
+  pod 'XHLaunchAd'
+  
+  
   target 'CarrierPigeonTests' do
     inherit! :search_paths
     # Pods for testing
